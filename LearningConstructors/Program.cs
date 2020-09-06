@@ -88,11 +88,17 @@ namespace LearningCollections
 
         //Constructor should be named the same as the class
         //i.e. Student Class
-        public Student()
+
+        public Student(string name, int grade, string birthday, string address, int phone)
         {
+            Name = name;
+            Grade = grade;
+            Birthday = birthday;
+            Address = address;
+            Phone = phone;
             //The constructor executes as soon as the object
             //is created or constructed i.e line 23S
-            Console.Write("constructor");
+            //Console.Write("constructor");
         }
         
         private int phone;
