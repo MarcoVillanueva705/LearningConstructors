@@ -91,6 +91,7 @@ namespace LearningCollections
 
         public Student(string name, int grade, string birthday, string address, int phone)
         {
+            //pass all data upfront when creating a Student
             Name = name;
             Grade = grade;
             Birthday = birthday;
