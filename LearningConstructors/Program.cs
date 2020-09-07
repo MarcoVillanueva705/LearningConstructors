@@ -6,7 +6,9 @@ namespace LearningCollections
     class Program
     {
         static void Main(string[] args)
-        {
+
+        { 
+        
             //instantiate a new Student Class object
             var students = new List<Student>();
             //to access the Name property, specify the object variable name
@@ -86,9 +88,18 @@ namespace LearningCollections
         //common practice to use first letter of variable name 
         //lower case to indicate 'private'
 
+        public Student()
+        {
+            //an empty constructor in this situation allows user
+            //or teacher for the student's information AFTER we 
+            //create the student
+        }
+
+
         //Constructor should be named the same as the class
         //i.e. Student Class
-
+        //now that our constructor requires parameters, we can't just create a new student
+        //and pass in nothing
         public Student(string name, int grade, string birthday, string address, int phone)
         {
             //pass all data upfront when creating a Student
@@ -120,3 +131,4 @@ namespace LearningCollections
 
     }
 }
+
