@@ -130,5 +130,10 @@ namespace LearningCollections
         }
 
     }
+
+    class Teacher
+    {
+
+    }
 }
 
